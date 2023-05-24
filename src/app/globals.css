@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+.darkViolet
+{
+    background-color:  hsl(256, 26%, 20%);
+}
+.veryLightGray{ 
+    
+    color:  hsl(0, 0%, 98%);
+}
+
+.veryLightGrayBG{
+    background-color:  hsl(0, 0%, 98%);
+}
+
+.btn{
+     border:2px solid  hsl(0, 0%, 98%);
+}
+
+.dfSerif{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.karla400{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.karla700{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.veryDarkViolet:hover{ background-color:   hsl(270, 9%, 17%);
+    color: white;
+}
+.veryDarkVioletBorder{
+    border: 1px solid hsl(270, 9%, 17%);
+}
+
